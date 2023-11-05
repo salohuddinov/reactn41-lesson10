@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yusupov Muhammadjon</title>
+    <link rel="stylesheet" href="../css/servis.css">
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <a class="nav-logo-link" href="#">
+                <img src="../images/logo (1).svg" alt="Finsweet logo" />
+            </a>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="./servis.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="./about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="./login.html" class="nav-link">Contacts</a></li>
+                <input type="submit" value="login" />
+                <input type="submit" value="open end account" />
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="home">
+            <fieldset>
+                <img src="../images/logo (1).svg" alt="" class="koom">
+                <div class="tell">
+                    <h1>Welcome to ByTrend!</h1>
+                    <p>Already have an account?</p>
+                    <a href="./about.html">Log in</a>
+                </div>
+                <div class="zoo">
+                    <div class="input-box">
+                        <label for="firstname">Firstname</label>
+                        <input id="firstname" type="text" placeholder="Firstname" required name="firstname"
+                            list="names" />
+                    </div>
+                    <div class="input-box-1">
+                        <label for="lastname">Lastname</label>
+                        <input id="lastname" type="text" placeholder="Lastname" required name="lastname" />
+                    </div>
+                    <div class="boox">
+                        <label for="lastname">Birth date</label>
+                        <input type="date" required value="2023-11-01" disabled name="birthday" />
+                        <img src="../images/date.png" alt="logo">
+                    </div>
+                    <form class="radio-checkbox">
+                        <div class="gender-box">
+                            <p>Gender</p>
+                            <div class="radio-box">
+                                <fieldset class="mook">
+                                    <input type="radio" id="male" name="gender" value="male" checked />
+                                    <label for="male">Male</label>
+                                    <img src="../images/Ellipse 3.svg" alt="pjool">
+                                </fieldset>
+                            </div>
+                            <div class="radio-box">
+                                <fieldset class="toop">
+                                    <input type="radio" id="female" name="gender" value="female" />
+                                    <label for="female">Female</label>
+                                    <img src="../images/Ellipse 3.svg" alt="pjool">
+                                </fieldset>
+                            </div>
+                            <div class="aziz">
+                                <label for="lastname">Skype</label>
+                                <input type="url" value="" placeholder="Your login Skype" name="instagram" required
+                                    oninvalid="this.setCustomValidity('Enter url')" />
+                            </div>
+                        </div>
+                        <div class="hoop">
+                            <label for="password">Promo</label>
+                            <input type="password" placeholder="Password" required name="password" />
+                        </div>
+                </div>
+                <button class="dood">Continue</button>
+            </fieldset>
+            <div class="aqua">
+                <p>©2020 All Rights Reserved. Lorem Technologies, Inc.</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

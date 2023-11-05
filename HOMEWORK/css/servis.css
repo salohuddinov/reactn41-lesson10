@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    /* 1600-2*160=1600-320=1280+2*20=1320 */
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.nav-list {
+    height: 100%;
+    display: flex;
+    column-gap: 32px;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 56px;
+    background-color: white;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+
+.nav-list {
+    height: 100%;
+    display: flex;
+    column-gap: 32px;
+}
+
+
+.nav-link {
+    position: relative;
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+    border-top: 3px solid transparent;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.nav-list input {
+    margin-top: 25px;
+    width: 60px;
+    height: 25px;
+}
+
+
+.nav-link:hover {
+    border-color: #ff0000;
+}
+
+
+.fieldset {
+    margin: 50px 0;
+    padding: 20px;
+}
+
+
+.home {
+    max-width: 1320px;
+    width: 596px;
+    height: 650px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+
+.koom {
+    margin-left: 230px;
+    margin-top: 40px;
+}
+
+
+.tell h1 {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 150px;
+    font-size: 29px;
+    font-family: "Segoe UI";
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    width: 293px;
+    height: 39px;
+}
+
+.tell p {
+    display: flex;
+    margin-left: 180px;
+    margin-top: 25px;
+    font-size: 16px;
+    font-family: "?????";
+    font-weight: 400;
+    color: rgba(68, 65, 80, 1);
+    width: 175px;
+    height: 26px;
+}
+
+.tell a {
+    display: flex;
+    margin-top: -30px;
+    margin-left: 360px;
+    font-size: 16px;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    color: rgba(1, 186, 179, 1);
+    width: 45px;
+    height: 26px;
+}
+
+.input-box label {
+    display: flex;
+    margin-left: 43px;
+    margin-top: 50px;
+}
+
+.input-box input {
+    display: flex;
+    margin-left: 40px;
+    width: 220px;
+    height: 45px;
+}
+
+.input-box-1 label {
+    display: flex;
+    margin-left: 303px;
+    margin-top: -65px;
+}
+
+.input-box-1 input {
+    display: flex;
+    margin-left: 300px;
+    margin-top: 0px;
+    width: 220px;
+    height: 45px;
+}
+
+.boox label {
+    display: flex;
+    margin-left: 45px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: "Segoe UI";
+    font-weight: 600;
+
+    width: 79px;
+    height: 24px;
+}
+
+.boox input {
+    display: flex;
+    margin-left: 40px;
+    width: 480px;
+    height: 48px;
+}
+
+.boox img {
+    display: flex;
+    margin-top: -40px;
+    margin-left: 470px;
+    background-color: rgb(255, 255, 255);
+    width: 30px;
+    height: 30px;
+}
+
+
+.gender-box p {
+    display: flex;
+    margin-left: 43px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    width: 61px;
+    height: 24px;
+}
+
+.radio-box {
+    display: flex;
+}
+
+
+.mook {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 40px;
+    width: 200px;
+}
+
+
+.toop {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 250px;
+    margin-top: -45px;
+    width: 200px;
+}
+
+
+.radio-box input {
+    display: flex;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+
+.radio-box label {
+    display: flex;
+    margin-left: 58px;
+    margin-top: -15px;
+}
+
+
+.radio-box img {
+    display: flex;
+    margin-left: 21px;
+    margin-top: -20px;
+}
+
+
+.aziz label {
+    display: flex;
+    margin-left: 45px;
+    font-size: 16px;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    color: rgba(68, 65, 80, 1);
+    width: 44px;
+    height: 24px;
+}
+
+
+.aziz input {
+    display: flex;
+    margin-top: 1px;
+    margin-left: 40px;
+    font-size: 16px;
+    padding: 20px 5px;
+    font-family: "?????";
+    font-weight: 400;
+    color: rgba(68, 65, 80, 1);
+    width: 400px;
+    height: 24px;
+}
+
+.aziz label {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    color: rgba(68, 65, 80, 1);
+    width: 44px;
+    height: 24px;
+}
+
+.hoop label {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 45px;
+    font-size: 16px;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    color: rgba(68, 65, 80, 1);
+    width: 44px;
+    height: 24px;
+}
+
+.hoop input {
+    display: flex;
+    margin-top: 1px;
+    margin-left: 40px;
+    font-size: 16px;
+    padding: 20px 5px;
+    font-family: "?????";
+    font-weight: 400;
+    color: rgba(68, 65, 80, 1);
+    width: 400px;
+    height: 24px;
+}
+
+.dood {
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 200px;
+    height: 44px;
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+.aqua p {
+    margin-top: 20px;
+    margin-left: 150px;
+    font-size: 14px;
+    font-family: "?????";
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    width: 315px;
+    height: 22px;
+}
